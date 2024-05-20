@@ -1,0 +1,43 @@
+.react-slider {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.slider {
+	border-radius: 8px;
+	color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	overflow: hidden;
+	padding: 1em;
+}
+
+.slider__window {
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.slider__buttons {
+	text-align: center;
+	width: 100%
+}
+
+.slider__button {
+	background-color: #777;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: .5em;
+	margin: 0 .3em;
+	width: .5em;
+}
+
+.slider__button_active {
+	background-color: #c0c0c0;
+}
+
+.slider__button:hover {
+	background-color: white;
+}

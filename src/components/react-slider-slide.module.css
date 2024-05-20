@@ -1,0 +1,40 @@
+.slider__slide {
+	box-sizing: border-box;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	opacity: 0;
+	position: relative;
+	top: -180px;
+	transition: all 600ms;
+}
+
+.slider__slide_show {
+	opacity: 1;
+	top: 0; 
+}
+
+.slide {
+	text-align: left;
+}
+
+.slide__image {
+	background-color: black;
+	border-radius: 8px;
+	float: left;
+	height: 100px;
+	margin-right: 20px;
+	width: 100px;
+}
+
+.slide__quote {
+	font-size: 1.1em;
+	margin-top: 0;
+	padding-left: 120px;
+}
+
+.slide__credit {
+	display: block;
+	font-size: .75em;
+	padding-bottom: 1em;
+	padding-left: 120px;
+}
