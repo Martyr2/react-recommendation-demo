@@ -1,8 +1,9 @@
 # React Slider Demo
 
-This is a simple responsive react slider demo for showing recommendations on your website. I wanted an easy to display recommendation widget that could showcase all the wonderful reviews I get from my clients and business associates. This demo showcases how to use overrideable styling through props to change colors.
+This is a simple responsive react slider demo for showing recommendations on your website. I wanted an easy to display recommendation widget that could showcase all the wonderful reviews I get from my clients and business associates. This demo showcases how to use overrideable styling through props to change colors.<br/><br/>
 
 ![Preview](./public/recommendation-preview.png)
+<br/>
 
 ## About the frontend:
 
