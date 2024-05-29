@@ -13,6 +13,7 @@ It has several features including the following:
 - Easy to customize slide data (found in the src > components > slideData.js file)
 - Adjustable speed transition between slides
 - Jump to slide toggle on the widget
+- This demo is also coded using Typescript for better error checking at design time.
 
 ## Additional feature considerations:
 
